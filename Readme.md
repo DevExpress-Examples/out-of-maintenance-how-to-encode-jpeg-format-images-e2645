@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/InplaceImageEdit/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/InplaceImageEdit/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/InplaceImageEdit/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/InplaceImageEdit/MainWindow.xaml))
+<!-- default file list end -->
 # How to Encode JPEG Format Images
 
 
