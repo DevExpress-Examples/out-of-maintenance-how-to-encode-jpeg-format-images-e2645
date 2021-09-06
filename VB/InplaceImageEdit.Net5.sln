@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InplaceImageEdit", "InplaceImageEdit\InplaceImageEdit.csproj", "{0228C562-7716-40D9-BD7F-EC61B575FEBC}"
+# Visual Studio 16
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "InplaceImageEdit", "InplaceImageEdit\InplaceImageEdit.Net5.vbproj", "{0228C562-7716-40D9-BD7F-EC61B575FEBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
