@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Data
+﻿Imports System.Data
 Imports System.IO
 Imports System.Reflection
 Imports System.Windows
@@ -11,12 +10,13 @@ Namespace InplaceImageEdit
 	''' </summary>
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 			Dim dataSet As New DataSet()
-			Dim [assembly] As System.Reflection.Assembly = System.Reflection.Assembly.GetExecutingAssembly()
-			dataSet.ReadXmlSchema([assembly].GetManifestResourceStream("NWindCategoriesSchema.xml"))
-			dataSet.ReadXml([assembly].GetManifestResourceStream("NWindCategories.xml"))
+			Dim assembly As System.Reflection.Assembly = System.Reflection.Assembly.GetExecutingAssembly()
+			dataSet.ReadXmlSchema(assembly.GetManifestResourceStream("NWindCategoriesSchema.xml"))
+			dataSet.ReadXml(assembly.GetManifestResourceStream("NWindCategories.xml"))
 			grid.DataSource = dataSet.Tables(0).DefaultView
 		End Sub
 		Private Sub ImageEditSettings_ConvertEditValue(ByVal sender As DependencyObject, ByVal e As DevExpress.Xpf.Editors.ConvertEditValueEventArgs)

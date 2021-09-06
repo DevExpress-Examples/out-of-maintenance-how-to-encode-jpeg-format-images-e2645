@@ -9,7 +9,7 @@
             <dxg:GridControl.Columns>
                 <dxg:GridColumn FieldName="Picture">
                     <dxg:GridColumn.EditSettings>
-                        <dxe:ImageEditSettings ConvertEditValue="ImageEditSettings_ConvertEditValue" ShowLoadDialogOnClickMode="Always" ShowMenu="False" />
+                        <dxe:ImageEditSettings ConvertEditValue="ImageEditSettings_ConvertEditValue" ShowLoadDialogOnClickMode="Always" ShowMenu="False"/>
                     </dxg:GridColumn.EditSettings>
                 </dxg:GridColumn>
                 <dxg:GridColumn FieldName="CategoryName" />
